@@ -23,9 +23,20 @@ body {
     box-shadow: 0 0 5px, #ddd;
 }
 
+a:link {
+    text-decoration: none;
+
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+
+}
+
 nav ul li {
     display: inline-block;
-
 }
 
 li {
@@ -45,12 +56,20 @@ main {
 
 }
 
+main p {
+    width: 90%;
+
+}
+
 .more-articles {
     display: inline-block;
     
 }
 
-
+.bonus {
+    width: 300px;
+    height: 135px;
+}
 
 
 
